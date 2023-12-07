@@ -113,7 +113,7 @@ def dbGive(): # обращаемся к базе данных
         #json_report = json.dumps(report)
         new_hope(group_by_1, group_by_2, group_by_3)
         return "Cмотрите в терминале программы"
-    return render_template('glav.html')
+    return render_template('glavstat.html')
 
 @app.route('/', methods=['POST'])
 def receive_json():
