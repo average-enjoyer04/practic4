@@ -77,6 +77,6 @@ def auth():
         else: # если ссылка неправильная
             return render_template('error.html', message="You gave us a bad link")
 
-    return render_template('glav.html') # главное меню
+    return render_template('shorturl.html') # главное меню
 if __name__ == '__main__':
     app.run(use_reloader=False)
